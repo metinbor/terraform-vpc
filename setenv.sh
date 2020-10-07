@@ -70,6 +70,4 @@ terraform {
         region = "${S3BUCKETREGION}"
     }
 }
-EOF
-cat backend.tf
-terraform-0.13 init 
+
